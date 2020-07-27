@@ -49,6 +49,12 @@ JENKINS_HOME=/tmp/jenkins_home java -jar jenkins.war
 # and install the recommended set of plugins
 ```
 
+Build `jenkinsfile-runner` using Maven:
+
+```
+mvn install
+```
+
 ### Execution
 Say you have your Git repository checked out at `~/foo` that contains `Jenkinsfile` and your source code.
 You can now run Jenkinsfile Runner like this:
